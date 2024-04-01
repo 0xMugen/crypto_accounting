@@ -28,10 +28,7 @@ SECRET_KEY = 'django-insecure-=h!3)wy)v2qtuu^!3y5dyk7&711716sy=bxt67j%e03ca5l@$=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "api.decentralbooks.com",
-    "172.31.32.201"
-]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

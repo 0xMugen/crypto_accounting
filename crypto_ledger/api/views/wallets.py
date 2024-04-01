@@ -216,7 +216,7 @@ class WalletTokenViewSet(viewsets.ModelViewSet):
         
 
 def get_crypto_data():
-        api_key = 'cca15a1dc19a548b0da18c3b56a4fab68b6a8ea2b7acc4376c8bfdd7a84da332'
+        api_key = '' # your api key
         url = f'https://min-api.cryptocompare.com/data/blockchain/list?api_key={api_key}'
         response = requests.get(url)
         data = response.json()

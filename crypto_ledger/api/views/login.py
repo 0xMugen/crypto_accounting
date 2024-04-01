@@ -17,7 +17,7 @@ def password_rest(request):
         send_mail(
             'Password Reset Requested',
             f'Follow this link to rest your password: {reset_url}',
-            'underyze@gmail.com',
+            'test@test.com',
             [user.email],
             fail_silently=False,
         )

@@ -64,7 +64,7 @@ def create_crypto(name, currency):
     
     toTs = int(time.time())  
     while True:
-        earliest_time = get_crypto_data(crypto.name, currency, 'cca15a1dc19a548b0da18c3b56a4fab68b6a8ea2b7acc4376c8bfdd7a84da332', toTs)
+        earliest_time = get_crypto_data(crypto.name, currency, 'set your api key', toTs) # set your api key
 
         if earliest_time is not None:
             toTs = earliest_time - 1 
